@@ -19,9 +19,6 @@ $jenis = "SURAT KELUAR";
 $tsk = mysqli_query($koneksi, "SELECT * FROM tb_surat_keluar where id_surat='$id'");
 $d = mysqli_fetch_array($tsk);
 
-var_dump($d);
-die;
-
 if ($d['id_surat'] == $id_surat) {
 	echo "Surat Sudah Ada!!";
 	die;
@@ -34,4 +31,3 @@ echo "
 alert('Data Berhasil DiTambahkan');
 document.location.href = '../../surat_keluar/index.php';
 </script>";
-?>
