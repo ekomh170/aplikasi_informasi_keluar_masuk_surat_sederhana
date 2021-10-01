@@ -34,7 +34,7 @@
             <div class="text2 h3 text-center text-light">Informasi Keluar</div>
             <div class="text2 h3 text-center text-light">Masuk Surat</div>
             <div class="mb-5">
-                <span><img src="assets/img/unhan-logo.png"></span>
+                <span><img src="assets/img/Logo.png"></span>
             </div>
             <div class="mt-5">
                 <a href="auth/masuk.php" style="text-decoration-line: none;"><button type="button"
@@ -42,8 +42,8 @@
                 <a href="auth/daftar.php" style="text-decoration-line: none;"><button type="button"
                         class="btn btn btn-lg btn-block mb-2" style="background-color: white;">Form Daftar</button></a>
                 <?php
-				@session_start();
-				if (@$_SESSION['email']) : ?>
+                @session_start();
+                if (@$_SESSION['email']) : ?>
                 <a href="system/informasi_surat/index.php" style="text-decoration-line: none;"><button type="button"
                         class="btn btn-warning btn-lg btn-block text-light mb-2">Kembali Ke Halaman APPS</button></a>
                 <a href="auth/keluar_akun.php" style="text-decoration-line: none;"><button type="button"
