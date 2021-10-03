@@ -34,6 +34,12 @@
 - Print Data (Data Surat Keluar)<br>
 - Cari Data (Data Surat Keluar)<br>
 
+## Fitur Role Atau Pembatasan Menu Untuk Setiap Users
+
+- Admin
+- Pegawai
+- User
+
 ## Aplikasi Screenshot
 
 <img src="assets_readme/tampilan3.PNG" alt="Contoh_Gambar">
